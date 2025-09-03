@@ -1,0 +1,92 @@
+Project Title : GUI Weather App
+-----------------------------
+
+Type: Desktop GUI Application  
+Difficulty Level: Intermediate to Advanced
+
+Objective : 
+-----------
+=> Create a comprehensive GUI-based weather application that fetches real-time weather data using weather APIs and displays it in an intuitive, user-friendly graphical interface with modern styling and interactive features.
+
+Program Working Flow : 
+----------------------
+START
+  ↓
+Initialize GUI Application (Tkinter)
+  ↓
+Create Main Window & Layout
+├── Header Section (App Title)
+├── Search Section (Input + Button)  
+├── Weather Display Area
+└── Details Section (Additional Info)
+  ↓
+Wait for User Interaction
+  ↓
+[User enters city name & clicks Search]
+  ↓
+Validate Location Input
+├── [Empty/Invalid] → Show Error Dialog
+└── [Valid] → Continue
+  ↓
+Display Loading Indicator
+  ↓
+Make HTTP Request to Weather API
+├── [Connection Error] → Show Error Message
+├── [Invalid City] → Show "City Not Found" 
+└── [Success] → Parse JSON Response
+  ↓
+Extract Weather Information
+├── Current Temperature
+├── Weather Condition & Description
+├── Humidity & Pressure
+├── Wind Speed & Direction
+├── Weather Icon Code
+└── Location Details
+  ↓
+Update GUI Elements
+├── Clear previous weather data
+├── Display temperature with units
+├── Show weather condition text
+├── Load & display weather icon
+├── Update additional details section
+└── Hide loading indicator
+  ↓
+Enable New Search
+  ↓
+[New Search] → Loop Back to Input
+[Close Application] → END
+
+Core Features:
+--------------
+=> Modern GUI interface with Tkinter/PyQt
+=> Real-time weather data via OpenWeatherMap API
+=> City-based weather search functionality
+=> Current weather display (temperature, conditions)
+=> Additional details (humidity, pressure, wind speed)
+=> Weather icons for visual representation
+=> Loading indicators for better user experience
+=> Comprehensive error handling & user feedback
+=> Input validation and sanitization
+=> Professional styling and layout design
+=> Responsive interface components
+
+Technical Components:
+--------------------
+=> API Integration (HTTP requests, JSON parsing)
+=> GUI Framework (Tkinter widgets & layouts)
+=> Image handling for weather icons
+=> Event-driven programming (button clicks, key events)
+=> Exception handling for network/API errors
+=> Data validation and user input processing
+=> Asynchronous operations (API calls with loading states)
+=> Object-oriented design patterns
+
+Advanced Features:
+------------------
+=> Dynamic weather icons display
+=> Loading animations during API calls  
+=> Error dialogs with user-friendly messages
+=> Clean, modern interface design
+=> Temperature unit display (Celsius/Fahrenheit)
+=> Multi-information weather dashboard
+=> Professional color schemes and typography

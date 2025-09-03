@@ -1,0 +1,32 @@
+Project Title : Simple Password Generator 
+-----------------------------------------
+
+Type: Console Application
+Difficulty Level: Beginner to Intermediate
+
+Objective : 
+-----------
+=> Create a secure and user-friendly password generator that helps users create strong, random passwords based on their specific requirements and preferences.
+
+Program Working Flow : 
+----------------------
+START
+  ↓
+Display Welcome Message
+  ↓
+Get Password Length (with validation)
+  ↓
+Get Character Type Preferences
+  ↓
+Build Character Pool
+  ↓
+Generate Random Password
+  ↓
+Analyze Password Strength
+  ↓
+Display Results
+  ↓
+Ask for Another Password?
+  ↓
+[YES] → Loop Back | [NO] → END
+

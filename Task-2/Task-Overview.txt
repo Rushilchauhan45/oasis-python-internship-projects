@@ -1,0 +1,55 @@
+Project Title : BMI Calculator
+------------------------------
+
+Type: Console Application
+Difficulty Level: Beginner to Intermediate
+
+Objective :
+------------
+=> Create a comprehensive BMI (Body Mass Index) calculator that helps users calculate their BMI, categorize their health status, and provides personalized health advice based on WHO standards.
+
+
+Program Working Flow :
+-----------------------
+START
+↓
+Display Welcome Message & BMI Information
+↓
+Show Main Menu Options
+↓
+[Option 1] Calculate BMI
+↓
+Get Weight Input (with validation)
+↓
+Get Height Input (with validation)
+↓
+Calculate BMI using Formula
+↓
+Determine Health Category
+↓
+Generate Health Advice
+↓
+Display Complete Results
+↓
+Return to Main Menu
+[Option 2] View BMI Reference Chart
+↓
+Display BMI Categories & Ranges
+↓
+Return to Main Menu
+[Option 3] Exit Program
+↓
+Display Thank You Message
+↓
+END
+
+Core Features:
+----------------
+=> Input validation for weight (0-500 kg) and height (0-3.0 m)
+=> BMI calculation using standard formula: BMI = weight/(height²)
+=> Health categorization (Underweight/Normal/Overweight/Obese)
+=> Personalized health advice for each category
+=> BMI reference chart display
+=> Menu-driven interface
+=> Error handling and exception management
+=> Professional formatted output display

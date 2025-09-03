@@ -1,0 +1,12 @@
+# Weather App Dependencies
+# ========================
+
+# HTTP requests for API calls
+requests>=2.31.0
+
+# Image processing for weather icons
+Pillow>=10.0.1
+
+# Note: tkinter comes built-in with Python
+# If tkinter is not available, install python3-tk on Linux:
+# sudo apt-get install python3-tk
