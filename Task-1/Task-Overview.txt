@@ -1,0 +1,59 @@
+Project Title : Voice Assistant
+----------------------------------
+
+Type: Console Application (Beginner) / GUI + API Integration (Advanced)
+Difficulty Level: Beginner to Advanced
+
+Objective :
+------------
+
+👉 Create a Python-based Voice Assistant that can recognize user speech, perform simple tasks (time, date, greetings, Google search), and respond with both text and voice. This project introduces speech recognition, text-to-speech, and command processing concepts.
+
+Program Working Flow :
+-----------------------
+START
+↓
+Display Welcome Message
+↓
+Initialize Speech Recognition & Text-to-Speech Engine
+↓
+Continuously Listen for User Commands
+↓
+Check Command Type
+    ↓
+    [Option 1] Greeting (e.g., "Hello")
+        → Respond with a friendly message
+    [Option 2] Tell Current Time
+        → Fetch and announce system time
+    [Option 3] Tell Current Date
+        → Fetch and announce today’s date
+    [Option 4] Search the Web
+        → Ask for search query → open browser with results
+    [Option 5] Exit Program
+        → Speak "Goodbye" → End Program
+↓
+Return to Listening State (unless Exit chosen)
+↓
+END
+
+Core Features :
+
+✅ Speech-to-text conversion using speechrecognition
+✅ Text-to-speech output using pyttsx3
+✅ Commands supported:
+
+Greeting response (“Hello”)
+Current Time & Date
+Google Search
+
+Exit/Stop Assistant
+✅ Error handling for unrecognized speech / no internet
+✅ Beginner friendly structure with modular code (separate files for speech, listener, commands, main)
+✅ Easy to extend (add new commands like weather, reminders, jokes, etc.)
+
+Extra (Advanced Options):
+
+NLP integration for better query understanding
+Weather updates using API
+Send emails or set reminders
+Control smart devices

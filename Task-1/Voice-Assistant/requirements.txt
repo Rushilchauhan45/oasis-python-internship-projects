@@ -1,0 +1,19 @@
+# Voice Assistant Requirements
+# ============================
+
+# Core dependencies for voice recognition and text-to-speech
+speechrecognition==3.10.0
+pyttsx3==2.90
+
+# For jokes functionality  
+pyjokes==0.6.0
+
+# For better microphone support
+pyaudio==0.2.11
+
+# Note: Install using: pip install -r requirements.txt
+# Some packages might need additional system dependencies:
+# - On Windows: Usually works out of the box
+# - On Linux: sudo apt-get install python3-tk python3-dev portaudio19-dev
+# - On macOS: brew install portaudio
+

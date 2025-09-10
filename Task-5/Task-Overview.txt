@@ -1,0 +1,46 @@
+Project Title: Browser-Based Chat Application
+----------------------------------------------
+
+Type: Console (Beginner) / GUI or Web (Advanced)
+Difficulty: Beginner → Advanced
+
+📝 Project Idea
+-----------------
+
+Beginner (Console):
+
+A simple Chat Application using socket programming in Python.
+Two users on the same network should be able to send and receive messages with each other.
+Server and Client will be in separate files.
+Server will receive messages and broadcast them.
+Client will send and receive user messages.
+
+Advanced (GUI):
+----------------
+
+Tkinter/PyQt ya web framework (Flask/Django) use karke GUI banana.
+Extra features: user authentication, multiple chat rooms, emojis, file sharing, encryption.
+
+🔹 Program Flow (Beginner Console Version)
+-------------------------------------------
+START
+↓
+Run server (waits for connections)
+↓
+Clients connect to server
+↓
+User 1 sends message → server → User 2 sees it
+↓
+User 2 replies → server → User 1 sees it
+↓
+Continue until user types "exit"
+↓
+End connection
+END
+
+🔹 Key Concepts
+
+socket programming (Python socket library)
+client-server architecture
+real-time message exchange
+error handling for disconnects

@@ -2,7 +2,7 @@
 
 
 
-API_KEY = "your_api_key_here"  
+API_KEY = "d5944f2a3596f6559c049eb4468f6600"  
 BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 ICON_BASE_URL = "http://openweathermap.org/img/wn/"
 
